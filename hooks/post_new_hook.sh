@@ -37,7 +37,7 @@ SKILL_NAME=$1
 # done
 # echo "###########################"
 
-sed "s/ask-custom-${SKILL_NAME}-default/https:\/\/aluxa.server.domain\/$SKILL_NAME/g" "./skill.json"
+sed "s/ask-custom-${SKILL_NAME}-default/https:\/\/aluxa.server.domain\/$SKILL_NAME/g" $SKILL_NAME/skill.json
 
 exit 0
 
