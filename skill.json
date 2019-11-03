@@ -3,7 +3,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "https://aluxa.coroniumcore.com/SKILL_NAME",
+          "uri": "https://your.aluxa.server/SKILL_NAME",
           "sslCertificateType": "Trusted"
         },
         "interfaces": []
