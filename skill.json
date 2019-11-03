@@ -3,7 +3,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "https://your.aluxa.server/SKILL_NAME",
+          "uri": "ask-custom-skill-default",
           "sslCertificateType": "Trusted"
         },
         "interfaces": []
@@ -14,7 +14,7 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "name": "SKILL_NAME"
+          "name": "skill"
         }
       }
     }
