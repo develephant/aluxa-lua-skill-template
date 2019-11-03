@@ -37,7 +37,7 @@ SKILL_NAME=$1
 # done
 # echo "###########################"
 
-# sed -i 's/ask-custom-${SKILL_NAME}-default/https:\/\/aluxa.server.domain\/$SKILL_NAME/g" $SKILL_NAME/skill.json
+sed -i .bak 's/ask-custom-${SKILL_NAME}-default/https:\/\/aluxa.server.domain\/$SKILL_NAME/g' $SKILL_NAME/skill.json
 
 mv $SKILL_NAME/lua/SkillName $SKILL_NAME/lua/$SKILL_NAME
 
