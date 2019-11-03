@@ -10,7 +10,7 @@
 # The script does the following:
 #  - Run "npm install" in each sourceDir in skill.json
 
-# SKILL_NAME=$1
+SKILL_NAME=$1
 # DO_DEBUG=${2:-false}
 
 # if [ $DO_DEBUG == false ]
@@ -37,7 +37,7 @@
 # done
 # echo "###########################"
 
-sed "s/ask-custom-${SKILL_NAME}-default/https:\/\/aluxa.server.domain\/$SKILL_NAME/g" -i ../skill.json
+sed -i "s/ask-custom-${SKILL_NAME}-default/https:\/\/aluxa.server.domain\/$SKILL_NAME/g" ../skill.json
 
 exit 0
 
