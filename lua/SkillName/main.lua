@@ -11,7 +11,7 @@ skill.LaunchRequestHandler = {
     return handlerInput.Ctx:isLaunchRequest()
   end,
   handle = function(handlerInput)
-    local speakOutput = "Welcome to my test skill. What not say, hello."
+    local speakOutput = "Welcome to my test skill. Why not say, hello."
 
     return handlerInput.ResponseBuilder.new()
       :speak(speakOutput)
