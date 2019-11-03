@@ -1,0 +1,22 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://aluxa.coroniumcore.com/SKILL_NAME",
+          "sslCertificateType": "Trusted"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "SKILL_NAME"
+        }
+      }
+    }
+  }
+}
